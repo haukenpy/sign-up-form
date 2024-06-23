@@ -89,9 +89,32 @@ body {
 }
 
 .sign-up {
+    padding: var(--right-container-top-padding) 0 0 var(--right-container-left-padding);
     background-color: white;
     height: calc(var(--height)/3);
     box-shadow: 1px 1px 5px rgb(200, 200, 200);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    padding-top: var(--right-container-top-padding);
+    display: flex;
+    gap: 5vw;
+}
+
+.form-right-column, .form-left-column {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-right-column div,
+.form-left-column div {
+    display: flex;
+    flex-direction: column;
 }
 
 .right-footer-div {
