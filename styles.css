@@ -20,6 +20,15 @@ body {
     background-color: black;
 }
 
+#sign-up-button {
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
 .image-container {
     position: relative;
     background-image: url("images/background.jpg");
@@ -120,4 +129,10 @@ body {
 .right-footer-div {
     background-color: rgb(var(--light-color));
     height: calc(var(--height)/3);
+    padding: var(--right-container-top-padding) 0 0 var(--right-container-left-padding);
 }
+
+.right-footer-div p {
+    padding-top: var(--right-container-top-padding)
+}
+
