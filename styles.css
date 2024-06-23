@@ -53,6 +53,11 @@ a {
     color: green;
 }
 
+img {
+    height: 10vh;
+    width: 5vw;
+}
+
 body {
     height: 98vh;
     display: flex;
