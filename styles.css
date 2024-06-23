@@ -3,6 +3,8 @@
     --height: 95vh;
     --light-color: 245, 247, 248;
     --font-size: 16px;
+    --right-container-left-padding: 2vw;
+    --right-container-top-padding: 3vh;
 }
 
 p {
@@ -75,11 +77,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
-.right-header-div > p {
-    margin-left: 2vw;
+.text-wrapper {
+    max-width: 65ch;
+    padding: 3vh 0px 0px var(--right-container-left-padding);
+}
+
+.text-wrapper p:last-of-type {
+    margin-top: var(--right-container-top-padding);
 }
 
 .sign-up {
